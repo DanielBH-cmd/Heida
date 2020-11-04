@@ -1,1 +1,45 @@
-
+<!DOCTYPE html>
+<!-- Dette sier oss at det er et HTML-dokument-->
+<html>
+<!--Mellom <html> og </html> er alt som inngår i HTML-dokumentet-->
+<head>
+	<title>Daniel's Ønskeliste</title>
+	<!-- i title skriver vi inn hva som skal vises øverst i nettleseren-->
+	<style>
+		body.a{
+			font-family: Arial, sans-serif;
+		}
+	</style>
+	<!--Mellom <style> og </style> skriver jeg inn design på nettsiden. jeg har bare skrevet om body, i bodyen min vil jeg ha Arial som teksttype-->
+</head>
+<!--mellom <head> og </head> skriver vi inn info om html-dokumentet-->
+<body class="a">
+	<h1>Daniel's Ønskeliste</h1>
+	<!-- h1 gir oss stor overskrift -->
+	<h2>Dette er da min ønskelist: (klikk på alle bildene for og komme til nettsider)</h2>
+	<!--H2 gir oss en litt mindre overskrift en h1-->
+		<b>
+			<p>&#9658;Alpha Industries ryggsekk</p>
+			<a href="https://www.zalando.no/alpha-industries-crew-backpack-ryggsekk-black-al552n000-q11.html" target="_blank">
+			<img border="0" alt="Ryggsekk" src="bilder/1.png" width="125" height="150">
+			</a>
+			<!--p gir oss et nytt avsnitt-->
+			<!--i a href="" skriver vi inn linken til nettside nvi vil linke mellom "", target blank opner nettsiden i en ny fane. vi skriver Her mellom <a href="" target=""> og </a> skriver jeg "Her", det vil da virke som en link.-->
+			<p>&#9658;RGB Strip 5m</p>
+			<a href="https://www.elektroimportoren.no/led-strip-digital-rgb-w-5m-ip65-ir/89688/Product.html?Event=frequentlyboughttogether" target="_blank">
+			<img border="0" alt="LED Strip" src="bilder/2.png" width="180" height="140">
+			</a>
+			<!--$#9658; gir oss et trekantpunkt som viser at det er et punkt-->
+			<p>&#9658;Man United t-skjorte</p>
+			<a href="https://www.unisportstore.no/fotballdrakter/manchester-united-hjemmedrakt-202021/204692/" target="_blank">
+			<img border="0" alt="Manut" src="bilder/3.png" width="180" height="180">
+			</a>
+			<p>&#9658;Man United Treningsgenser</p>
+			<a href="https://www.unisportstore.no/fotballdrakter/manchester-united-treningsgenser-presentation-warm-rdsort/196040/" target="_blank">
+			<img border="0" alt="Manutg" src="bilder/4.png" width="180" height="180">
+			</a>
+		</b>
+		<!--b gir oss "bold" tekst, altså tykk tekst type-->
+</body>
+<!--Mellom <body> og </body> skriver vi inn alt som står på nettsiden. i vår body står det også class="a" som viser til hva jeg skreiv i <style>, class="a" vil altså gi alt i mellom <body> og </body> skrifttype Arial-->
+</html>
